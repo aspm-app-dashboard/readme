@@ -10,6 +10,6 @@ jobs:
     steps:
       - uses: cloudbees-io/register-deployed-artifact@v2
         with:
-          labels: QA1
+          labels: QA2
           artifact-id: f5cdb068-4fc2-4fd8-b3f0-16712f6fe966
           target-environment: ProdEnv
