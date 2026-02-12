@@ -13,3 +13,8 @@ jobs:
           labels: QA2
           artifact-id: 2cdc7ee4-0c5f-4344-8607-ca3e039dc1b0
           target-environment: ProdEnv
+      - uses: cloudbees-io/register-deployed-artifact@v2
+        with:
+          labels: QA1
+          artifact-id: 2cdc7ee4-0c5f-4344-8607-ca3e039dc1b0
+          target-environment: aspm-qa-env
